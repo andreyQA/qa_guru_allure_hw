@@ -2,6 +2,7 @@ package allure;
 
 import com.codeborne.selenide.Condition;
 import io.qameta.allure.selenide.AllureSelenide;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 
@@ -16,7 +17,7 @@ import static io.qameta.allure.Allure.step;
 public class AllureHomework {
 
     private static final String REPO = "eroshenkoam/allure-example";
-    private static final String ISSUENAME = "Issue for Autotest";
+    private static final String ISSUENAME = "issue_to_test_allure_report";
 
     @Test
     public void checkIssueWithClearSelenideAndListener() {
@@ -46,6 +47,7 @@ public class AllureHomework {
         });
     }
     @Test
+    @DisplayName("Проверка с аннотациями")
     public void checkIssueWithAnnotation() {
         Steps step = new Steps();
         step.openMainPage();

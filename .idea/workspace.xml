@@ -4,20 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd2c169e-2a04-4dbc-943b-e1bcb48e08dc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/allure/AllureHomework.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/allure/Steps.java" afterDir="false" />
+    <list default="true" id="fd2c169e-2a04-4dbc-943b-e1bcb48e08dc" name="Changes" comment="Clear Selenide(with Listener), Lambda, Annotations">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/test.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/test.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/allure/AllureHomework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allure/AllureHomework.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/allure/Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allure/Steps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +80,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.AllureHomework.checkIssueWithAnnotation">
+  <component name="RunManager" selected="Gradle.qa_guru_allure_hw [allureServe]">
     <configuration name="AllureHomework" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -104,29 +95,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;allure.AllureHomework&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="AllureHomework.checkIssue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;allure.AllureHomework.checkIssue&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -203,13 +171,34 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="qa_guru_allure_hw [check]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="check" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.AllureHomework.checkIssueWithAnnotation" />
         <item itemvalue="Gradle.qa_guru_allure_hw [allureServe]" />
+        <item itemvalue="Gradle.AllureHomework.checkIssueWithAnnotation" />
+        <item itemvalue="Gradle.qa_guru_allure_hw [check]" />
         <item itemvalue="Gradle.AllureHomework.checkIssueWithLambda" />
         <item itemvalue="Gradle.AllureHomework" />
-        <item itemvalue="Gradle.AllureHomework.checkIssue" />
       </list>
     </recent_temporary>
   </component>
@@ -222,6 +211,14 @@
       <option name="presentableId" value="Default" />
       <updated>1666097208915</updated>
     </task>
+    <task id="LOCAL-00001" summary="Clear Selenide(with Listener), Lambda, Annotations">
+      <created>1666106773704</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666106773704</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -234,5 +231,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Clear Selenide(with Listener), Lambda, Annotations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clear Selenide(with Listener), Lambda, Annotations" />
   </component>
 </project>

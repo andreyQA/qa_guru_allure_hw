@@ -1,8 +1,12 @@
 package allure;
 
 import com.codeborne.selenide.Condition;
+import com.codeborne.selenide.WebDriverRunner;
+import io.qameta.allure.Attachment;
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 
 import static com.codeborne.selenide.Selectors.withText;
 import static com.codeborne.selenide.Selenide.$;
@@ -22,6 +26,7 @@ public class Steps {
     @Step("Ищем {repo} на странице поисковой выдачи")
     public void searchResults(String repo) {
         $(By.linkText(repo)).click();
+        takeScreenShot();
     }
 
     @Step("Открываем вкладку Issues")
@@ -32,5 +37,10 @@ public class Steps {
     @Step("Проверяем наличие issue {issue_name}")
     public void checkIssueName(String issue_name) {
         $(withText(issue_name)).should(Condition.exist);
+        takeScreenShot();
+    }
+    @Attachment(value = "Видео", type = "image/png")
+    public byte[] takeScreenShot() {
+        return ((TakesScreenshot) WebDriverRunner.getWebDriver()).getScreenshotAs(OutputType.BYTES);
     }
 }
