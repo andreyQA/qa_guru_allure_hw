@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Oct 19 15:40:47 GMT 2022","Wed Oct 19 15:40:55 GMT 2022","7639","","allure.AllureHomework","","allure.AllureHomework","checkIssueWithLambda","checkIssueWithLambda()",""
+"passed","Wed Oct 19 15:40:57 GMT 2022","Wed Oct 19 15:40:59 GMT 2022","2318","","allure.AllureHomework","","allure.AllureHomework","checkIssueWithAnnotation","Проверка с аннотациями",""
+"passed","Wed Oct 19 15:40:55 GMT 2022","Wed Oct 19 15:40:57 GMT 2022","2403","","allure.AllureHomework","","allure.AllureHomework","checkIssueWithClearSelenideAndListener","checkIssueWithClearSelenideAndListener()",""
