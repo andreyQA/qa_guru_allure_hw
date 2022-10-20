@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd2c169e-2a04-4dbc-943b-e1bcb48e08dc" name="Changes" comment="Clear Selenide(with Listener), Lambda, Annotations">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/test.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/test.yaml" afterDir="false" />
+    <list default="true" id="fd2c169e-2a04-4dbc-943b-e1bcb48e08dc" name="Changes" comment="add workflow">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/allure/AllureHomework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allure/AllureHomework.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/allure/Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allure/Steps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666106773704</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add workflow">
+      <created>1666193625695</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666193625695</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -234,6 +238,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Clear Selenide(with Listener), Lambda, Annotations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clear Selenide(with Listener), Lambda, Annotations" />
+    <MESSAGE value="add workflow" />
+    <option name="LAST_COMMIT_MESSAGE" value="add workflow" />
   </component>
 </project>
